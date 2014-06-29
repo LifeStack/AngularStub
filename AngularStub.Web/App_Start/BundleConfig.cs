@@ -10,6 +10,17 @@ namespace AngularStub.Web
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                 "~/Scripts/jquery-{version}.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/Angular").Include(
+                "~/Scripts/angular.js",
+                "~/Scripts/angular-touch.js",
+                "~/Scripts/angular-sanitize.js",
+                "~/Scripts/angular-route.js",
+                "~/Scripts/angular-resource.js",
+                "~/Scripts/angular-mocks.js",
+                "~/Scripts/angular-loader.js",
+                "~/Scripts/angular-cookies.js",
+                "~/Scripts/angular-animate.js"));
+
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
