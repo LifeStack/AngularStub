@@ -7,18 +7,39 @@ namespace AngularStub.Tests.Controllers
     [TestClass]
     public class HomeControllerTest
     {
+        private HomeController _controller;
+        private ViewResult _result;
+
+        [TestInitialize]
+        public void GivenHomeController()
+        {
+            _controller = new HomeController();
+        }
+
+        private void WhenIndexIsCalled()
+        {
+            _result = _controller.Index() as ViewResult;
+        }
+
+        private void ThenViewIsReturned()
+        {
+            Assert.IsNotNull(_result);
+            Assert.IsInstanceOfType(_result, typeof(ViewResult));
+            Assert.AreEqual("Home Page", _result.ViewBag.Title);
+        }
+
         [TestMethod]
         public void Index()
         {
-            // Arrange
-            var controller = new HomeController();
+            // GivenHomeController();
+            WhenIndexIsCalled();
+            ThenViewIsReturned();
+        }
 
-            // Act
-            var result = controller.Index() as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual("Home Page", result.ViewBag.Title);
+        [TestCleanup]
+        public void CloseConnection()
+        {
+            _controller.Dispose();
         }
     }
 }
