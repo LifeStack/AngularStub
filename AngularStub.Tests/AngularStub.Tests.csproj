@@ -61,6 +61,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AngularStub.Api\AngularStub.Api.csproj">
+      <Project>{3D992C5E-B04C-4799-8C2E-8E6483E8A2A9}</Project>
+      <Name>AngularStub.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AngularStub.Data\AngularStub.Data.csproj">
       <Project>{E1FAF653-DD51-46C2-9710-B57E9E85FAA3}</Project>
       <Name>AngularStub.Data</Name>
@@ -70,7 +74,7 @@
       <Name>AngularStub.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\AngularStub.Web\AngularStub.Web.csproj">
-      <Project>{3D992C5E-B04C-4799-8C2E-8E6483E8A2A9}</Project>
+      <Project>{35F4C583-7263-4184-BE5B-87EAE0128CF7}</Project>
       <Name>AngularStub.Web</Name>
     </ProjectReference>
   </ItemGroup>

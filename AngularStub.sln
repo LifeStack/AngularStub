@@ -20,7 +20,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularStub.Domain", "Angul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularStub.Data", "AngularStub.Data\AngularStub.Data.csproj", "{E1FAF653-DD51-46C2-9710-B57E9E85FAA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularStub.Web", "AngularStub.Web\AngularStub.Web.csproj", "{3D992C5E-B04C-4799-8C2E-8E6483E8A2A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularStub.Api", "AngularStub.Api\AngularStub.Api.csproj", "{3D992C5E-B04C-4799-8C2E-8E6483E8A2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularStub.Web", "AngularStub.Web\AngularStub.Web.csproj", "{35F4C583-7263-4184-BE5B-87EAE0128CF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{3D992C5E-B04C-4799-8C2E-8E6483E8A2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D992C5E-B04C-4799-8C2E-8E6483E8A2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D992C5E-B04C-4799-8C2E-8E6483E8A2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F4C583-7263-4184-BE5B-87EAE0128CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F4C583-7263-4184-BE5B-87EAE0128CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F4C583-7263-4184-BE5B-87EAE0128CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F4C583-7263-4184-BE5B-87EAE0128CF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

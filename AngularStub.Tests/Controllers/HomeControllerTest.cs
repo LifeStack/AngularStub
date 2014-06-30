@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using AngularStub.Api.Controllers;
 using AngularStub.Web.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http.Results;
+using AngularStub.Api.Controllers;
 using AngularStub.Data;
 using AngularStub.Domain;
-using AngularStub.Web.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AngularStub.Tests.Controllers
